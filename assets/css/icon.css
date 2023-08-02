@@ -1,0 +1,115 @@
+.icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-fit: contain;
+}
+.icon-tiny {
+  width: 6px;
+  height: 6px;
+}
+.icon-xs {
+  width: 2px;
+  height: 2px;
+}
+.icon-s {
+  width: 16px;
+  height: 16px;
+}
+.icon-sm {
+  width: 18px;
+  height: 18px;
+}
+.icon-rect {
+  width: 16px;
+  height: 8px;
+}
+.icon-narrow {
+  width: 54px;
+  height: 4px;
+}
+.icon-logo {
+  background-image: url(../icons/Alogo.svg);
+}
+.icon-home {
+  background-image: url(../icons/Home.svg);
+}
+.icon-globe {
+  background-image: url(../icons/globe.svg);
+}
+.icon-briefcase {
+  background-image: url(../icons/briefcase.svg);
+}
+.icon-activity {
+  background-image: url(../icons/activity.svg);
+}
+.icon-covid {
+  background-image: url(../icons/shield.svg);
+}
+.icon-play {
+  background-image: url(../icons/play-circle.svg);
+}
+.icon-award {
+  background-image: url(../icons/award.svg);
+}
+.icon-message {
+  background-image: url(../icons/message-circle.svg);
+}
+.icon-bell {
+  background-image: url(../icons/bell.svg);
+}
+.icon-setting {
+  background-image: url(../icons/settings.svg);
+}
+.icon-dot {
+  background-image: url(../icons/dot.svg);
+}
+.icon-gift {
+  background-image: url(../icons/gift.svg);
+}
+.icon-search {
+  background-image: url(../icons/search.svg);
+}
+.icon-arrow-right {
+  background-image: url(../icons/arrow-right.svg);
+}
+.icon-user {
+  background-image: url(../icons/user.svg);
+}
+.icon-down {
+  background-image: url(../icons/down.svg);
+}
+.icon-crosshair {
+  background-image: url(../icons/crosshair.svg);
+}
+.icon-feather {
+  background-image: url(../icons/feather.svg);
+}
+.icon-file-text {
+  background-image: url(../icons/file-text.svg);
+}
+.icon-left {
+  background-image: url(../icons/left.svg);
+}
+.icon-right {
+  background-image: url(../icons/right.svg);
+}
+.icon-dots {
+  background-image: url(../icons/dots.svg);
+}
+.icon-ellipse {
+  background-image: url(../icons/ellipse.svg);
+}
+.icon-share {
+  background-image: url(../icons/share.svg);
+}
+.icon-pocket {
+  background-image: url(../icons/pocket.svg);
+}
+.icon-arrow-left {
+  background-image: url(../icons/arrow-left.svg);
+}

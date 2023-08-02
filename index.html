@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aster News</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="box flex">
+      <!-- Page-left -->
+      <aside class="page-left">
+        <div>
+          <div class="logo flex items-center">
+            <figure>
+              <img src="./assets/img/Logo.svg" alt="Logo" />
+            </figure>
+            <p class="text-lg text-semibold primary">Aster News</p>
+          </div>
+          <!-- Navbar-->
+          <nav class="navbar">
+            <a href="#" class="navbar-link active">
+              <i class="icon icon-dot icon-tiny"></i>
+              <div class="navbar-link-inner flex items-center">
+                <span class="navbar-icon mr-22px">
+                  <i class="icon icon-home"></i>
+                </span>
+                <span class="navbar-text">Top Stories</span>
+              </div>
+            </a>
+            <a href="#" class="navbar-link">
+              <i class="icon icon-dot icon-tiny"></i>
+              <div class="navbar-link-inner flex items-center">
+                <span class="navbar-icon mr-22px">
+                  <i class="icon icon-globe"></i>
+                </span>
+                <span class="navbar-text">Around the World</span>
+              </div>
+            </a>
+            <a href="#" class="navbar-link">
+              <i class="icon icon-dot icon-tiny"></i>
+              <div class="navbar-link-inner flex items-center">
+                <span class="navbar-icon mr-22px">
+                  <i class="icon icon-briefcase"></i>
+                </span>
+                <span class="navbar-text">Business</span>
+              </div>
+            </a>
+            <a href="#" class="navbar-link">
+              <i class="icon icon-dot icon-tiny"></i>
+              <div class="navbar-link-inner flex items-center">
+                <span class="navbar-icon mr-22px">
+                  <i class="icon icon-activity"></i>
+                </span>
+                <span class="navbar-text">Health</span>
+              </div>
+            </a>
+            <hr />
+            <a href="#" class="navbar-link">
+              <i class="icon icon-dot icon-tiny"></i>
+              <div class="navbar-link-inner flex items-center">
+                <span class="navbar-icon mr-22px">
+                  <i class="icon icon-covid"></i>
+                </span>
+                <span class="navbar-text">Covid 19</span>
+              </div>
+            </a>
+            <hr />
+            <a href="#" class="navbar-link">
+              <i class="icon icon-dot icon-tiny"></i>
+              <div class="navbar-link-inner flex items-center">
+                <span class="navbar-icon mr-22px">
+                  <i class="icon icon-play"></i>
+                </span>
+                <span class="navbar-text">Entertainment</span>
+              </div>
+            </a>
+            <a href="#" class="navbar-link">
+              <i class="icon icon-dot icon-tiny"></i>
+              <div class="navbar-link-inner flex items-center">
+                <span class="navbar-icon mr-22px">
+                  <i class="icon icon-award"></i>
+                </span>
+                <span class="navbar-text">Sports</span>
+              </div>
+            </a>
+            <a href="#" class="navbar-link">
+              <i class="icon icon-dot icon-tiny"></i>
+              <div class="navbar-link-inner flex items-center">
+                <span class="navbar-icon mr-22px">
+                  <i class="icon icon-message"></i>
+                </span>
+                <span class="navbar-text">Discussion</span>
+              </div>
+            </a>
+            <a href="#" class="navbar-link">
+              <i class="icon icon-dot icon-tiny"></i>
+              <div class="navbar-link-inner flex items-center">
+                <span class="navbar-icon mr-22px">
+                  <i class="icon icon-bell"></i>
+                </span>
+                <span class="navbar-text">Notification</span>
+              </div>
+            </a>
+            <a href="#" class="navbar-link">
+              <i class="icon icon-dot icon-tiny"></i>
+              <div class="navbar-link-inner flex items-center">
+                <span class="navbar-icon mr-22px">
+                  <i class="icon icon-setting"></i>
+                </span>
+                <span class="navbar-text">News Feed Settings</span>
+              </div>
+            </a>
+          </nav>
+          <!-- Navbar End-->
+        </div>
+        <div>
+          <!-- Subscribe-->
+          <div class="subscribe">
+            <div class="gift p-20px">
+              <div class="gift-icon flex items-center">
+                <i class="icon icon-gift"></i>
+                <span class="light text-sm ml-14px">Subscribe to Premium</span>
+              </div>
+              <div class="Upgrade flex items-center justify-between mt-12px">
+                <div class="flex items-center">
+                  <p class="light text-semibold text-xl">$8</p>
+                  <small class="light text-sm">/m</small>
+                </div>
+                <button class="btn">Upgrade</button>
+              </div>
+            </div>
+          </div>
+          <!-- Subscribe end-->
+        </div>
+      </aside>
+      <!-- Page-left end -->
+
+      <!-- Main -->
+      <main class="main mt-14px mr-34px">
+        <!-- Header-->
+        <header class="header flex items-center">
+          <div class="search flex items-center justify-between p-14px mr-20px">
+            <input type="text" placeholder="Search for news.." />
+            <i class="icon icon-sm icon-search"></i>
+          </div>
+          <div class="last-news flex items-center justify-between">
+            <p class="text-sm text-500">
+              Latest news on <span class="primary">Covid-19</span>
+            </p>
+            <i class="icon icon-sm icon-arrow-right"></i>
+          </div>
+          <!-- profile-->
+          <div class="profile flex items-center">
+            <div class="flex items-center mr-34px">
+              <i class="icon icon-user mr-12px"></i>
+              <p>My Profile</p>
+            </div>
+            <i class="icon icon-rect icon-down"></i>
+          </div>
+          <!-- profile end -->
+        </header>
+        <!-- Header End-->
+
+        <!-- Section-->
+        <section class="flex justify-between">
+          <!-- Page-Content -->
+          <div class="page-content">
+            <h3>Top Stories for you</h3>
+            <nav class="navbar mt-22px">
+              <ul class="menu-list flex justify-between items-center">
+                <li class="active">All</li>
+                <li>Android</li>
+                <li>Cricket</li>
+                <li>iPhone</li>
+                <li>Google</li>
+                <li>Nano Technology</li>
+                <li>Mental Health</li>
+                <li>
+                  <i class="icon icon-ellipse"></i>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Box-items -->
+            <div class="Box-items">
+              <div class="Box-items box1">
+                <div class="box-item-header box-item">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-title">
+                        Samsung Galaxy F22 launched in India: Price, features,
+                        other details
+                      </p>
+                      <p class="sm-text-gray mt-10px">
+                        Samsung Galaxy F22 has been launched in India. The new
+                        smartphone has been priced in the mid-range segment. The
+                        new smartphone is powered by a MediaTek chipset and
+                        features a high refresh rate AMOLED display.
+                      </p>
+                    </div>
+                    <figure>
+                      <img src="./assets/img/phone.png" alt="phone" />
+                    </figure>
+                  </div>
+                  <div class="flex items-center">
+                    <div class="box-time flex items-center">
+                      <span class="sm-text-gray mr-8px">The Mint</span>
+                      <span>
+                        <i class="icon icon-xs icon-dot"></i>
+                      </span>
+                      <span class="sm-text-gray ml-8px">15 mins ago</span>
+                    </div>
+                    <div class="box-share flex items-center">
+                      <div class="flex items-center mr-22px">
+                        <span>
+                          <i class="icon icon-s icon-share"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          share
+                        </button>
+                      </div>
+                      <div class="flex items-center">
+                        <span>
+                          <i class="icon icon-s icon-pocket"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          Read Later
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box-item box-item2">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-title">
+                        Battlegrounds Mobile India iOS release date
+                      </p>
+                      <p class="sm-text-gray mt-10px">
+                        The reason behind their disappointment is that iPhone
+                        users have been..
+                      </p>
+                    </div>
+                    <figure>
+                      <img
+                        src="./assets/img/battleground.jpg"
+                        alt="battleground"
+                      />
+                    </figure>
+                  </div>
+                  <div class="flex items-center mt-10px justify-between">
+                    <div class="flex items-center">
+                      <span class="sm-text-gray mr-8px">Sport Biz</span>
+                      <span>
+                        <i class="icon icon-xs icon-dot"></i>
+                      </span>
+                      <span class="sm-text-gray ml-8px">42 mins ago</span>
+                    </div>
+                    <div class="box-share flex items-center">
+                      <div class="flex items-center mr-22px">
+                        <span>
+                          <i class="icon icon-s icon-share"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          share
+                        </button>
+                      </div>
+                      <div class="flex items-center">
+                        <span>
+                          <i class="icon icon-s icon-pocket"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          Read Later
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box-item box-item3">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-title">
+                        Instagram working on ‘Exclusive Stories’ for subscribers
+                      </p>
+                      <p class="sm-text-gray mt-10px">
+                        Instagram could be jumping on the paid subscription..
+                      </p>
+                    </div>
+                    <figure>
+                      <img
+                        src="./assets/img/insta.jpg"
+                        alt="Instagram
+                          "
+                      />
+                    </figure>
+                  </div>
+                  <div class="flex items-center mt-10px justify-between">
+                    <div class="flex items-center">
+                      <span class="sm-text-gray mr-8px">The Mint</span>
+                      <span>
+                        <i class="icon icon-xs icon-dot"></i>
+                      </span>
+                      <span class="sm-text-gray ml-8px">52 mins ago</span>
+                    </div>
+                    <div class="box-share flex items-center">
+                      <div class="flex items-center mr-22px">
+                        <span>
+                          <i class="icon icon-s icon-share"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          share
+                        </button>
+                      </div>
+                      <div class="flex items-center">
+                        <span>
+                          <i class="icon icon-s icon-pocket"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          Read Later
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box-item box-item4">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-title">
+                        Petrol, diesel prices - July 6: Fuel prices unchanged
+                        after touching record high
+                      </p>
+                      <p class="sm-text-gray mt-10px">
+                        The price of petrol remained unchanged on July 6 after
+                        reaching a new record high on the previous day,
+                        according to a price notification by state-owned..
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-center mt-10px justify-between">
+                    <div class="flex items-center">
+                      <span class="sm-text-gray mr-8px">Radar 52</span>
+                      <span>
+                        <i class="icon icon-xs icon-dot"></i>
+                      </span>
+                      <span class="sm-text-gray ml-8px">1 hour ago</span>
+                    </div>
+                    <div class="box-share flex items-center">
+                      <div class="flex items-center mr-22px">
+                        <span>
+                          <i class="icon icon-s icon-share"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          share
+                        </button>
+                      </div>
+                      <div class="flex items-center">
+                        <span>
+                          <i class="icon icon-s icon-pocket"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          Read Later
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box-item box-item5">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-title">
+                        Android smartphone users alert! Remove these 9 apps now
+                      </p>
+                      <p class="sm-text-gray mt-10px">
+                        Stealer trojans were spread as harmless software..
+                      </p>
+                    </div>
+                    <figure>
+                      <img src="./assets/img/laptop.jpg" alt="laptop" />
+                    </figure>
+                  </div>
+                  <div class="flex items-center mt-10px justify-between">
+                    <div class="flex items-center">
+                      <span class="sm-text-gray mr-8px">Live Mint</span>
+                      <span>
+                        <i class="icon icon-xs icon-dot"></i>
+                      </span>
+                      <span class="sm-text-gray ml-8px">2 hours ago</span>
+                    </div>
+                    <div class="box-share flex items-center">
+                      <div class="flex items-center mr-22px">
+                        <span>
+                          <i class="icon icon-s icon-share"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          share
+                        </button>
+                      </div>
+                      <div class="flex items-center">
+                        <span>
+                          <i class="icon icon-s icon-pocket"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          Read Later
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box-item box-item6">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-title">
+                        How to install Windows 11 on almost any unsupported PC
+                      </p>
+                      <p class="sm-text-gray mt-10px">
+                        Microsoft is allowing some unsupported computers..
+                      </p>
+                    </div>
+                    <figure>
+                      <img src="./assets/img/windows.jpg" alt="windows" />
+                    </figure>
+                  </div>
+                  <div class="flex items-center mt-10px justify-between">
+                    <div class="flex items-center">
+                      <span class="sm-text-gray mr-8px">The Mint</span>
+                      <span>
+                        <i class="icon icon-xs icon-dot"></i>
+                      </span>
+                      <span class="sm-text-gray ml-8px">52 mins ago</span>
+                    </div>
+                    <div class="box-share flex items-center">
+                      <div class="flex items-center mr-22px">
+                        <span>
+                          <i class="icon icon-s icon-share"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          share
+                        </button>
+                      </div>
+                      <div class="flex items-center">
+                        <span>
+                          <i class="icon icon-s icon-pocket"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          Read Later
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box-item box-item7">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-title">
+                        This charging feature from Android phones may come to
+                        iPhone 13
+                      </p>
+                      <p class="sm-text-gray mt-10px">
+                        You will always find a set of people who will say that..
+                      </p>
+                    </div>
+                    <figure>
+                      <img src="./assets/img/iphone.jpg" alt="iphone" />
+                    </figure>
+                  </div>
+                  <div class="flex items-center mt-10px justify-between">
+                    <div class="flex items-center">
+                      <span class="sm-text-gray mr-8px">The Mint</span>
+                      <span>
+                        <i class="icon icon-xs icon-dot"></i>
+                      </span>
+                      <span class="sm-text-gray ml-8px">52 mins ago</span>
+                    </div>
+                    <div class="box-share flex items-center">
+                      <div class="flex items-center mr-22px">
+                        <span>
+                          <i class="icon icon-s icon-share"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          share
+                        </button>
+                      </div>
+                      <div class="flex items-center">
+                        <span>
+                          <i class="icon icon-s icon-pocket"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          Read Later
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Box-items End -->
+            <table class="table">
+              <thead>
+                <tr class="flex items-center justify-between">
+                  <div class="flex items-center">
+                    <td>
+                      <i class="icon icon-s icon-feather mr-12px"></i>
+                    </td>
+                    <td class="text-md text-semibold">
+                      Creators you should follow
+                    </td>
+                  </div>
+                  <td>
+                    <button class="btn-sm">
+                      <i
+                        class="icon icon-s icon-arrow-left mr-20px"
+                      ></i></button
+                    ><button class="btn-sm">
+                      <i class="icon icon-s icon-arrow-right"></i>
+                    </button>
+                  </td>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <!-- Page-Content End -->
+
+          <!-- Page-Right-->
+          <aside class="page-right flex flex-column mt-45px">
+            <div class="weather box-sm">
+              <div class="flex items-center justify-between mb-8px">
+                <p>Coimbatore, Tamil Nadu</p>
+                <i class="icon icon-sm icon-crosshair"></i>
+              </div>
+              <hr />
+              <div class="weather-body flex items-center justify-between">
+                <div>
+                  <p class="mb-8px">Sunny</p>
+                  <h3>31&deg c</h3>
+                </div>
+                <figure>
+                  <img src="./assets/img/sun.png" alt="sun" />
+                </figure>
+              </div>
+              <div class="weather-footer mt-16px">
+                <span class="active mr-22px">Celsius</span>
+                <span>Fahrenheit</span>
+              </div>
+            </div>
+
+            <div class="story-writer box-sm">
+              <div class="flex items-center">
+                <i class="icon icon-feather mr-12px"></i>
+                <p class="text-sm">Become a Story Writer</p>
+              </div>
+              <div class="flex items-center mt-12px">
+                <p class="mute text-s line-sm">
+                  Contribute stories and start earning.
+                </p>
+                <button class="btn-light">Know More</button>
+              </div>
+            </div>
+
+            <div class="quick-bytes box-sm">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                  <i class="icon icon-file-text mr-14px"></i>
+                  <p class="text-sm">Quick Bytes</p>
+                </div>
+
+                <div class="flex items-center">
+                  <button class="btn-sm">
+                    <i class="icon icon-left"></i>
+                  </button>
+                  <button class="btn-sm">
+                    <i class="icon icon-right"></i>
+                  </button>
+                </div>
+              </div>
+              <hr />
+              <h4 class="sm-text-gray pr-14px">
+                The price of petrol remained unchanged on July 6 after reaching
+                a new record high on the previous day, according to a price
+                notification by state-owned fuel retailers. The diesel price
+                remained stable for the second consecutive day.
+                <br />
+                <br />
+                The increase on July 5, 35th in two months, took the petrol
+                price in Delhi closer to Rs 100 per litre-mark. The petrol price
+                in the national capital soared to Rs 99.9 a litre and diesel was
+                priced at Rs 89.4 per litre, according to Bharat Petroleum's
+                price listing.
+              </h4>
+              <div class="dots mt-8px">
+                <i class="icon icon-narrow icon-dots"></i>
+              </div>
+            </div>
+
+            <div class="newsletter box-md">
+              <h6 class="text-400 text-md">Subscribe to our newsletter</h6>
+              <div class="email mt-12px">
+                <input type="text" placeholder="Enter Email" />
+              </div>
+              <button class="btn-primary mt-16px">Subscribe</button>
+            </div>
+          </aside>
+          <!-- Page-Right end -->
+        </section>
+        <!-- Section End-->
+      </main>
+      <!-- Main end -->
+    </div>
+  </body>
+</html>
