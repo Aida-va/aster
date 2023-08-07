@@ -31,6 +31,15 @@ hr {
 .img-contain {
   object-fit: contain;
 }
+.text-primary {
+  color: var(--darktext);
+  font-size: 15px;
+}
+.text-active {
+  color: var(--primary);
+  font-size: 15px;
+  font-weight: 700;
+}
 .text-title {
   font-size: 17px;
   font-weight: 500;
@@ -46,8 +55,19 @@ hr {
   line-height: 22px;
   font-weight: 400;
 }
+
+.md-text-gray {
+  color: var(--textmute);
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+}
 .sm-text-blue {
   color: var(--bluetext);
   font-size: 12px;
   line-height: 22px;
+}
+.text-bold {
+  font-size: 15px;
+  font-weight: 700;
 }

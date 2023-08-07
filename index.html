@@ -7,19 +7,23 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div class="box flex">
-      <!-- Page-left -->
-      <aside class="page-left">
+    <!--Box-->
+    <div class="Box gray">
+      <aside class="left-page">
         <div>
-          <div class="logo flex items-center">
-            <figure>
-              <img src="./assets/img/Logo.svg" alt="Logo" />
-            </figure>
-            <p class="text-lg text-semibold primary">Aster News</p>
+          <!--logo-item-->
+          <div class="Logo-item">
+            <div class="logo flex items-center">
+              <figure>
+                <img src="./assets/img/Logo.svg" alt="Logo" />
+              </figure>
+              <p class="text-lg text-semibold primary">Aster News</p>
+            </div>
           </div>
-          <!-- Navbar-->
+          <!--logo-item End-->
+          <!--Navbar-->
           <nav class="navbar">
-            <a href="#" class="navbar-link active">
+            <a href="#" class="navbar-link active flex items-center">
               <i class="icon icon-dot icon-tiny"></i>
               <div class="navbar-link-inner flex items-center">
                 <span class="navbar-icon mr-22px">
@@ -28,7 +32,7 @@
                 <span class="navbar-text">Top Stories</span>
               </div>
             </a>
-            <a href="#" class="navbar-link">
+            <a href="#" class="navbar-link flex items-center">
               <i class="icon icon-dot icon-tiny"></i>
               <div class="navbar-link-inner flex items-center">
                 <span class="navbar-icon mr-22px">
@@ -37,7 +41,7 @@
                 <span class="navbar-text">Around the World</span>
               </div>
             </a>
-            <a href="#" class="navbar-link">
+            <a href="#" class="navbar-link flex items-center">
               <i class="icon icon-dot icon-tiny"></i>
               <div class="navbar-link-inner flex items-center">
                 <span class="navbar-icon mr-22px">
@@ -46,7 +50,7 @@
                 <span class="navbar-text">Business</span>
               </div>
             </a>
-            <a href="#" class="navbar-link">
+            <a href="#" class="navbar-link flex items-center">
               <i class="icon icon-dot icon-tiny"></i>
               <div class="navbar-link-inner flex items-center">
                 <span class="navbar-icon mr-22px">
@@ -56,7 +60,7 @@
               </div>
             </a>
             <hr />
-            <a href="#" class="navbar-link">
+            <a href="#" class="navbar-link flex items-center">
               <i class="icon icon-dot icon-tiny"></i>
               <div class="navbar-link-inner flex items-center">
                 <span class="navbar-icon mr-22px">
@@ -66,7 +70,7 @@
               </div>
             </a>
             <hr />
-            <a href="#" class="navbar-link">
+            <a href="#" class="navbar-link flex items-center">
               <i class="icon icon-dot icon-tiny"></i>
               <div class="navbar-link-inner flex items-center">
                 <span class="navbar-icon mr-22px">
@@ -75,7 +79,7 @@
                 <span class="navbar-text">Entertainment</span>
               </div>
             </a>
-            <a href="#" class="navbar-link">
+            <a href="#" class="navbar-link flex items-center">
               <i class="icon icon-dot icon-tiny"></i>
               <div class="navbar-link-inner flex items-center">
                 <span class="navbar-icon mr-22px">
@@ -84,7 +88,7 @@
                 <span class="navbar-text">Sports</span>
               </div>
             </a>
-            <a href="#" class="navbar-link">
+            <a href="#" class="navbar-link flex items-center">
               <i class="icon icon-dot icon-tiny"></i>
               <div class="navbar-link-inner flex items-center">
                 <span class="navbar-icon mr-22px">
@@ -93,7 +97,7 @@
                 <span class="navbar-text">Discussion</span>
               </div>
             </a>
-            <a href="#" class="navbar-link">
+            <a href="#" class="navbar-link flex items-center">
               <i class="icon icon-dot icon-tiny"></i>
               <div class="navbar-link-inner flex items-center">
                 <span class="navbar-icon mr-22px">
@@ -102,7 +106,7 @@
                 <span class="navbar-text">Notification</span>
               </div>
             </a>
-            <a href="#" class="navbar-link">
+            <a href="#" class="navbar-link flex items-center">
               <i class="icon icon-dot icon-tiny"></i>
               <div class="navbar-link-inner flex items-center">
                 <span class="navbar-icon mr-22px">
@@ -112,7 +116,7 @@
               </div>
             </a>
           </nav>
-          <!-- Navbar End-->
+          <!--Navbar End-->
         </div>
         <div>
           <!-- Subscribe-->
@@ -134,21 +138,22 @@
           <!-- Subscribe end-->
         </div>
       </aside>
-      <!-- Page-left end -->
-
-      <!-- Main -->
-      <main class="main mt-14px mr-34px">
+      <main class="main">
         <!-- Header-->
-        <header class="header flex items-center">
-          <div class="search flex items-center justify-between p-14px mr-20px">
-            <input type="text" placeholder="Search for news.." />
-            <i class="icon icon-sm icon-search"></i>
-          </div>
-          <div class="last-news flex items-center justify-between">
-            <p class="text-sm text-500">
-              Latest news on <span class="primary">Covid-19</span>
-            </p>
-            <i class="icon icon-sm icon-arrow-right"></i>
+        <header class="header flex items-center justify-between">
+          <div class="header flex items-center">
+            <div
+              class="search flex items-center justify-between p-14px mr-20px"
+            >
+              <input type="text" placeholder="Search for news.." />
+              <i class="icon icon-sm icon-search"></i>
+            </div>
+            <div class="last-news flex items-center justify-between">
+              <p class="text-sm text-500">
+                Latest news on <span class="primary">Covid-19</span>
+              </p>
+              <i class="icon icon-sm icon-arrow-right"></i>
+            </div>
           </div>
           <!-- profile-->
           <div class="profile flex items-center">
@@ -162,8 +167,7 @@
         </header>
         <!-- Header End-->
 
-        <!-- Section-->
-        <section class="flex justify-between">
+        <section class="content flex">
           <!-- Page-Content -->
           <div class="page-content">
             <h3>Top Stories for you</h3>
@@ -293,7 +297,7 @@
                       <img
                         src="./assets/img/insta.jpg"
                         alt="Instagram
-                          "
+                            "
                       />
                     </figure>
                   </div>
@@ -501,35 +505,369 @@
               </div>
             </div>
             <!-- Box-items End -->
-            <table class="table">
-              <thead>
-                <tr class="flex items-center justify-between">
-                  <div class="flex items-center">
-                    <td>
-                      <i class="icon icon-s icon-feather mr-12px"></i>
-                    </td>
-                    <td class="text-md text-semibold">
-                      Creators you should follow
-                    </td>
+
+            <!-- creators -->
+            <div class="creators mt-20px">
+              <div
+                class="creators-header flex items-center justify-between mb-14px"
+              >
+                <div class="flex items-center">
+                  <i class="icon icon-feather mr-12px"></i>
+                  <p class="text-bold">Creators you should follow</p>
+                </div>
+                <div class="flex items-center">
+                  <button class="btn-sm mr-20px">
+                    <i class="icon icon-md icon-arrow-left"></i>
+                  </button>
+                  <button class="btn-sm">
+                    <i class="icon icon-md icon-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="creators-items flex">
+                <div class="creator-item flex flex-column justify-between">
+                  <div class="text-center">
+                    <figure class="items-center">
+                      <img
+                        src="./assets/img/shan-teylor.png"
+                        alt="shan teylor"
+                      />
+                    </figure>
+                    <p class="text-sm text-500">Shan Teylor</p>
+                    <small class="sm-text-gray">Tech Mint</small>
                   </div>
-                  <td>
-                    <button class="btn-sm">
-                      <i
-                        class="icon icon-s icon-arrow-left mr-20px"
-                      ></i></button
-                    ><button class="btn-sm">
-                      <i class="icon icon-s icon-arrow-right"></i>
-                    </button>
-                  </td>
-                </tr>
-              </thead>
-              <tbody></tbody>
-            </table>
+                  <button class="btn-s">Follow</button>
+                </div>
+
+                <div class="creator-item flex flex-column justify-between">
+                  <div class="text-center">
+                    <figure class="items-center">
+                      <img
+                        src="./assets/img/mary-angela.png"
+                        alt="mary-angela"
+                      />
+                    </figure>
+                    <p class="text-sm text-500">Mary Angela</p>
+                    <small class="sm-text-gray">Live Mint</small>
+                  </div>
+                  <button class="btn-s">Follow</button>
+                </div>
+
+                <div class="creator-item flex flex-column justify-between">
+                  <div class="text-center">
+                    <figure class="items-center">
+                      <img
+                        src="./assets/img/kyon-cho-chi.png"
+                        alt="Kyon Cho Chir"
+                      />
+                    </figure>
+                    <p class="text-sm text-500">Kyon Cho Chi</p>
+                    <small class="sm-text-gray">Bizz Daily</small>
+                  </div>
+                  <button class="btn-s">Follow</button>
+                </div>
+
+                <div class="creator-item flex flex-column justify-between">
+                  <div class="text-center">
+                    <figure class="items-center">
+                      <img
+                        src="./assets/img/paul-livingstone.png"
+                        alt="Paul Livingstone"
+                      />
+                    </figure>
+                    <p class="text-sm text-500">Paul Livingstone</p>
+                    <small class="sm-text-gray">Sport Biz</small>
+                  </div>
+                  <button class="btn-s">Follow</button>
+                </div>
+
+                <div class="creator-item flex flex-column justify-between">
+                  <div class="text-center">
+                    <figure class="items-center">
+                      <img src="./assets/img/sara-jay.png" alt="sara-jay" />
+                    </figure>
+                    <p class="text-sm text-500">Sara Jay</p>
+                    <small class="sm-text-gray">Radar 52</small>
+                  </div>
+                  <button class="btn-s">Follow</button>
+                </div>
+              </div>
+            </div>
+            <!-- creators End -->
+
+            <!-- Box-items -->
+            <div class="Box-items">
+              <div class="Box-items box2">
+                <div class="box-item box-item8">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-title">
+                        INDvENG Tests to be played in front of crowd
+                      </p>
+                      <p class="sm-text-gray mt-10px">
+                        The 5-Test series between India & England is set to be
+                        played in front of packed..
+                      </p>
+                    </div>
+                    <figure>
+                      <img src="./assets/img/indveng.png" alt="indveng" />
+                    </figure>
+                  </div>
+                  <div class="flex items-center mt-10px justify-between">
+                    <div class="flex items-center">
+                      <span class="sm-text-gray mr-8px">Sport Biz</span>
+                      <span>
+                        <i class="icon icon-xs icon-dot"></i>
+                      </span>
+                      <span class="sm-text-gray ml-8px">42 mins ago</span>
+                    </div>
+                    <div class="box-share flex items-center">
+                      <div class="flex items-center mr-22px">
+                        <span>
+                          <i class="icon icon-s icon-share"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          share
+                        </button>
+                      </div>
+                      <div class="flex items-center">
+                        <span>
+                          <i class="icon icon-s icon-pocket"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          Read Later
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box-item box-item9">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-title">
+                        Hardik Pandya 'is bowling and it is a very good sign' -
+                        Suryakumar
+                      </p>
+                      <p class="sm-text-gray mt-10px">
+                        I think that the team management and Hardik..
+                      </p>
+                    </div>
+                    <figure>
+                      <img src="./assets/img/hardik.png" alt="hardik" />
+                    </figure>
+                  </div>
+                  <div class="flex items-center mt-10px justify-between">
+                    <div class="flex items-center">
+                      <span class="sm-text-gray mr-8px">The Mint</span>
+                      <span>
+                        <i class="icon icon-xs icon-dot"></i>
+                      </span>
+                      <span class="sm-text-gray ml-8px">52 mins ago</span>
+                    </div>
+                    <div class="box-share flex items-center">
+                      <div class="flex items-center mr-22px">
+                        <span>
+                          <i class="icon icon-s icon-share"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          share
+                        </button>
+                      </div>
+                      <div class="flex items-center">
+                        <span>
+                          <i class="icon icon-s icon-pocket"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          Read Later
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box-item box-item10">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-title">
+                        Hardik Pandya 'is bowling and it is a very good sign' -
+                        Suryakumar
+                      </p>
+                      <p class="sm-text-gray mt-10px">
+                        When US President Joe Biden chose in April to withdraw
+                        all American forces from Afghanistan by September, we
+                        were among those who judged..
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-center mt-10px justify-between">
+                    <div class="flex items-center">
+                      <span class="sm-text-gray mr-8px">Radar 52</span>
+                      <span>
+                        <i class="icon icon-xs icon-dot"></i>
+                      </span>
+                      <span class="sm-text-gray ml-8px">1 hour ago</span>
+                    </div>
+                    <div class="box-share flex items-center">
+                      <div class="flex items-center mr-22px">
+                        <span>
+                          <i class="icon icon-s icon-share"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          share
+                        </button>
+                      </div>
+                      <div class="flex items-center">
+                        <span>
+                          <i class="icon icon-s icon-pocket"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          Read Later
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box-item box-item11">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-title">
+                        Android smartphone users alert! Remove these 9 apps now
+                      </p>
+                      <p class="sm-text-gray mt-10px">
+                        Stealer trojans were spread as harmless software..
+                      </p>
+                    </div>
+                    <figure>
+                      <img src="./assets/img/laptop.jpg" alt="laptop" />
+                    </figure>
+                  </div>
+                  <div class="flex items-center mt-10px justify-between">
+                    <div class="flex items-center">
+                      <span class="sm-text-gray mr-8px">Live Mint</span>
+                      <span>
+                        <i class="icon icon-xs icon-dot"></i>
+                      </span>
+                      <span class="sm-text-gray ml-8px">2 hours ago</span>
+                    </div>
+                    <div class="box-share flex items-center">
+                      <div class="flex items-center mr-22px">
+                        <span>
+                          <i class="icon icon-s icon-share"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          share
+                        </button>
+                      </div>
+                      <div class="flex items-center">
+                        <span>
+                          <i class="icon icon-s icon-pocket"></i>
+                        </span>
+                        <button class="btn-sm sm-text-blue ml-8px">
+                          Read Later
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Box-items End -->
+
+            <!-- Announce-->
+            <div class="announce mt-22px" id="text">
+              <div class="announce-title">
+                <h3>
+                  Leak: Samsung to announce the Z Fold 3 and Galaxy Watch 4 in
+                  August
+                </h3>
+                <div class="mt-14px">
+                  <button class="btn-blue mr-8px">Tech</button>
+                  <button class="btn-blue">Mobile</button>
+                </div>
+                <p class="md-text-gray mt-20px">
+                  Samsung's next Unpacked event reportedly lands August 11
+                </p>
+              </div>
+              <figure>
+                <img src="./assets/img/sumsung-z.png" alt="sumsung-z" />
+              </figure>
+              <p class="announce-descriptions">
+                Samsung had a pretty quiet Mobile World Congress event, but it
+                did tell us we’d learn more about its upcoming Google-approved
+                smartwatch at its next Unpacked event. Unfortunately, the
+                company didn’t tell us when exactly that would be, but a new
+                report from Korean publication DigitalDaily News (via
+                9to5Google) claims the next Unpacked will take place on August
+                11, at 10 AM ET.
+                <br />
+                <br />
+                According to the report, Samsung will be launching five devices
+                at the event:
+                <br />
+                <br />
+                <span>
+                  <div class="flex items-center">
+                    <i class="icon icon-13 icon-square mr-14px"></i>
+                    <small>Galaxy Z Fold 3</small>
+                  </div>
+                  <div class="flex items-center">
+                    <i class="icon icon-13 icon-square mr-14px"></i>
+                    <small> Galaxy Z Flip 3</small>
+                  </div>
+                  <div class="flex items-center">
+                    <i class="icon icon-13 icon-square mr-14px"></i>
+                    <small>Galaxy Watch 4</small>
+                  </div>
+                  <div class="flex items-center">
+                    <i class="icon icon-13 icon-square mr-14px"></i>
+                    <small> Galaxy Watch 4 Active</small>
+                  </div>
+                  <div class="flex items-center">
+                    <i class="icon icon-13 icon-square mr-14px"></i>
+                    <small>Galaxy Buds 2</small>
+                  </div>
+                </span>
+              </p>
+              <p class="announce-descriptions">
+                Notably, the new Galaxy Watches will be Samsung’s first to not
+                use Tizen OS. Google collaborated with Samsung to revamp Wear OS
+                from the ground up, making it smoother and more efficient.
+                <br />
+                <br />
+                Hopefully, the devices are able to maintain the long battery
+                life Samsung’s smartwatches have been known for, while having
+                much greater compatibility with smartwatch apps via Wear OS.
+                That said, the watch will use a custom One UI Watch skin —
+                because it wouldn’t be Samsung if it didn’t put its own twist on
+                the software.
+                <br />
+                <br />
+                As for the Z Fold 3, it’s expected to be a refinement of the
+                original Fold’s concept without major changes to the form
+                factor. The biggest change aside from the expected spec bump is
+                that the Z Fold 3 will support the S-Pen.
+                <br />
+                <br />
+                The event will reportedly be broadcast via YouTube, as per
+                usual, and there is no indication the company plans to hold a
+                concurrent physical event. With the rumored date a little over a
+                month away, I’d expect an official announcement from Samsung
+                within the next week or two.
+              </p>
+            </div>
+            <!-- Announce end -->
+
+            <!-- show-more-->
+            <div class="show-more text-center" id="hider">
+              <button class="button">Show More</button>
+            </div>
+            <!-- show-more end-->
           </div>
           <!-- Page-Content End -->
 
-          <!-- Page-Right-->
-          <aside class="page-right flex flex-column mt-45px">
+          <aside class="right-page">
             <div class="weather box-sm">
               <div class="flex items-center justify-between mb-8px">
                 <p>Coimbatore, Tamil Nadu</p>
@@ -546,8 +884,12 @@
                 </figure>
               </div>
               <div class="weather-footer mt-16px">
-                <span class="active mr-22px">Celsius</span>
-                <span>Fahrenheit</span>
+                <a href="#">
+                  <span class="active mr-22px">Celsius</span>
+                </a>
+                <a href="#">
+                  <span>Fahrenheit</span>
+                </a>
               </div>
             </div>
 
@@ -607,11 +949,10 @@
               <button class="btn-primary mt-16px">Subscribe</button>
             </div>
           </aside>
-          <!-- Page-Right end -->
         </section>
-        <!-- Section End-->
       </main>
-      <!-- Main end -->
     </div>
+    <!--Box End-->
+    <script src="./script.js"></script>
   </body>
 </html>

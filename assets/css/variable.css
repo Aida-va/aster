@@ -1,6 +1,8 @@
 :root {
   --primary: #2f9ff8;
+  --primary-mute: rgb(47, 159, 248, 0.1);
   --textmute: rgba(7, 45, 75, 0.6);
   --lighttext: #fff;
   --bluetext: #0768b5;
+  --darktext: #072d4b;
 }
